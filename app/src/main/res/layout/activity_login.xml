@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
@@ -13,8 +14,9 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_gravity="center"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
             android:orientation="vertical">
 
             <EditText
@@ -22,10 +24,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
+                android:background="@drawable/round"
                 android:ems="10"
                 android:hint="e-mail"
-                android:background="@drawable/round"
-                android:inputType="textEmailAddress"/>
+                android:inputType="textEmailAddress" />
 
             <EditText
                 android:id="@+id/et_password"
@@ -33,10 +35,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginLeft="15dp"
+                android:background="@drawable/round"
                 android:ems="10"
                 android:hint="password"
-                android:background="@drawable/round"
-                android:inputType="textPassword"/>
+                android:inputType="textPassword" />
         </LinearLayout>
 
         <Button
@@ -45,6 +47,7 @@
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_weight="1"
             android:text="로그인" />
 
         <Button
@@ -53,6 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_weight="1"
             android:text="회원가입" />
 
     </LinearLayout>
