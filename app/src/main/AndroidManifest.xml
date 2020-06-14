@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile18team.cookbab">
+    <uses-permission android:name="android.hardware.sensor.proximity" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="쿸밥"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.mobile18team.cookbab.Splashscreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mobile18team.cookbab.LoginActivity" />
+        <activity android:name="com.mobile18team.cookbab.Timer" />
+        <activity android:name="com.mobile18team.cookbab.RecipeIngredient" />
+        <activity android:name="com.mobile18team.cookbab.CookActivity" />
+        <activity android:name="com.mobile18team.cookbab.IngredientDetail" />
+        <activity android:name="com.mobile18team.cookbab.AddIngredient" />
+        <activity android:name="com.mobile18team.cookbab.RecipeActivity" />
+        <activity android:name="com.mobile18team.cookbab.MyRecipeMain" />
+        <activity android:name="com.mobile18team.cookbab.RecipeMain" />
+        <activity android:name="com.mobile18team.cookbab.MainActivity" />
+        <activity android:name="com.mobile18team.cookbab.RefrigeratorMain" />
+        <activity android:name="com.mobile18team.cookbab.FirstAuthActivity">
+
+        </activity>
+
+        <receiver android:name="com.mobile18team.cookbab.Alarm">
+            <intent-filter>
+                <action android:name="com.example.coookbab.TEST" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/sss" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>

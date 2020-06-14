@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".IngredientDetail">
+
+    <TextView
+        android:id="@+id/tv_igtitle"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/namum"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:textSize="35dp"
+        android:text="재료 이름" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="273dp"
+        app:srcCompat="@drawable/sss" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/namum"
+            android:textSize="20dp"
+            android:gravity="center"
+
+            android:text="보유량" />
+
+        <EditText
+            android:id="@+id/ingnum"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:textSize="20sp"
+            android:fontFamily="@font/namum"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:textSize="20dp"
+            android:fontFamily="@font/namum"
+            android:text="g/개" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorText"
+            android:textSize="20dp"
+            android:fontFamily="@font/namum"
+            android:gravity="center"
+            android:text="유통기한" />
+
+        <EditText
+            android:id="@+id/inglife"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="4"
+            android:textSize="20dp"
+            android:ems="10"
+            android:fontFamily="@font/namum"
+            android:inputType="textPersonName"
+            android:text="20200101" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/namum"
+        android:textColor="@color/colorText"
+        android:textSize="20dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/namum" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/delbtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="25dp"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/namum"
+            android:text="삭제" />
+
+        <Button
+            android:id="@+id/savebtn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="@font/namum"
+            android:text="저장" />
+    </LinearLayout>
+
+</LinearLayout>
