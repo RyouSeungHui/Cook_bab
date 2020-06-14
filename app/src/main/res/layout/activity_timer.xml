@@ -62,7 +62,8 @@
             android:layout_weight="1"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:textSize="20dp"
             android:text="30초" />
         <Button
@@ -72,7 +73,8 @@
             android:layout_weight="1"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:textSize="20dp"
             android:text="5분" />
 
@@ -83,7 +85,8 @@
             android:layout_weight="1"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:textSize="20dp"
             android:text="30분" />
     </LinearLayout>
@@ -112,7 +115,8 @@
             android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:layout_weight="1"
             android:text="시간 설정" />
         <Button
@@ -121,7 +125,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:textSize="20dp"
             android:layout_weight="1"
             android:text="Start" />
@@ -132,7 +137,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@color/colorAccent"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/colorPrimaryDark"
             android:textSize="20dp"
             android:layout_weight="1"
             android:text="Reset"
