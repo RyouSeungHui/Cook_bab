@@ -67,7 +67,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
                     android:layout_marginLeft="60dp"
                     android:fontFamily="@font/namum"
                     android:text="재료 정보"
@@ -88,7 +87,15 @@
                 android:fontFamily="@font/namum"
                 android:text="레시피 재료"
                 android:textSize="20dp" />
-
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/namum"
+                android:text="부족한 재료 사러가기 ↑ 클릭"/>
             <View style="@style/Divider" />
 
             <RelativeLayout
