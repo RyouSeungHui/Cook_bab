@@ -69,6 +69,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
                     android:fontFamily="@font/namum"
+                    android:layout_centerVertical="true"
                     android:text="재료 정보"
                     android:textColor="@color/colorText"
                     android:textSize="25dp" />

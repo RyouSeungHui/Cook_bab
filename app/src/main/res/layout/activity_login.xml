@@ -35,7 +35,6 @@
                 android:background="@drawable/round"
                 android:ems="10"
                 android:hint="e-mail"
-                android:fontFamily="@font/namum"
                 android:inputType="textEmailAddress" />
 
             <EditText
@@ -46,7 +45,6 @@
                 android:layout_marginBottom="15dp"
                 android:ems="10"
                 android:hint="password"
-                android:fontFamily="@font/namum"
                 android:inputType="textPassword" />
         </LinearLayout>
 
@@ -71,7 +69,8 @@
             <Button
                 android:id="@+id/btn_newid"
                 android:background="@drawable/round"
-                android:backgroundTint="@color/colorButton"                android:layout_width="wrap_content"
+                android:backgroundTint="@color/colorButton"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -80,6 +79,16 @@
                 android:text="회원가입" />
 
         </LinearLayout>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:singleLine="false"
+            android:text="@string/Multiline"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/namum"/>
     </LinearLayout>
 </LinearLayout>

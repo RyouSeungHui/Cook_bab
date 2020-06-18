@@ -102,7 +102,7 @@ public class Alarm extends BroadcastReceiver {
                                 .setDefaults(Notification.DEFAULT_ALL) //알림 설정(사운드, 진동)
                                 .setAutoCancel(true) //터치 시 자동으로 삭제할 지 여부
                                 .setPriority(NotificationCompat.PRIORITY_HIGH) // 알림의 중요도 .setSmallIcon(R.drawable.ic_sun)
-                                .setSmallIcon(R.mipmap.ic_launcher)
+                                .setSmallIcon(R.drawable.app_icon)
                                 .setContentIntent(pendingIntent);
                         notificationManager.notify(0, builder.build());
                     }
@@ -122,12 +122,12 @@ public class Alarm extends BroadcastReceiver {
                         Intent notificationIntent = new Intent(context.getApplicationContext(), MainActivity.class); // 알림 클릭 시 이동할 액티비티 지정
                         notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP); // FLAG_UPDATE_CURRENT : 이미 생성된 PendingIntent가 존재하면 해당 Intent의 Extra Data만 변경한다.
                         PendingIntent pendingIntent = PendingIntent.getActivity(context.getApplicationContext(), 1, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-                        builder.setContentTitle("[쿸밥]재료의 유통기한이 다되어 갑니다") //제목
+                        builder.setContentTitle("[쿸밥]재료의 유통기한이 다 되어 갑니다") //제목
                                 .setContentText(tomorrow+tomorrow_list[i]+"의 유통기한이 하루 남았습니다!") //내용
                                 .setDefaults(Notification.DEFAULT_ALL) //알림 설정(사운드, 진동)
                                 .setAutoCancel(true) //터치 시 자동으로 삭제할 지 여부
                                 .setPriority(NotificationCompat.PRIORITY_HIGH) // 알림의 중요도 .setSmallIcon(R.drawable.ic_sun)
-                                .setSmallIcon(R.mipmap.ic_launcher)
+                                .setSmallIcon(R.drawable.app_icon)
                                 .setContentIntent(pendingIntent);
                         notificationManager.notify(1, builder.build());
                     }

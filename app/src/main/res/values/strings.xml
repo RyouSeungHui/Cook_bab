@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Multiline">
+        [회원가입 방법]\n 아이디: 이메일 형식\n 비밀번호: 6자리 이상\n 작성 후 회원가입 버튼을 눌러주세요.
+    </string>
 </resources>
