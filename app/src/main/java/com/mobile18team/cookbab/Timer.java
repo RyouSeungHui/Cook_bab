@@ -156,7 +156,7 @@ public class Timer extends AppCompatActivity {
             @Override
             public void onFinish() {
                 Log.d("LOGTAG, CountDown", "onFinish");
-                //startSound(getApplicationContext());
+                startSound(getApplicationContext());
                 repeatTimer();
             }
         }.start();

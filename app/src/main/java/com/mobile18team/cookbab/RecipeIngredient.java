@@ -152,18 +152,16 @@ public class RecipeIngredient extends AppCompatActivity {
 
                     LinearLayout littlelinearlayout=new LinearLayout(getApplicationContext());
 
-                    LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT);
-                    layoutParams.setMargins(20,20,20,20);
+                    LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,130,1.0f);
+                    layoutParams.setMargins(20,0,20,20);
                     littlelinearlayout.setLayoutParams(layoutParams);
                     linearLayout.addView(littlelinearlayout);
 
 
                     LinearLayout.LayoutParams Params = new LinearLayout.LayoutParams(100,100);
-                    Params.setMargins(5,5,15,5);
-
+                    Params.setMargins(5,5,15,0);
                     marketbtn.setBackgroundResource(R.drawable.cart);
                     marketbtn.setLayoutParams(Params);
-
 
 
                     name.setTextColor(Color.parseColor("#000000"));

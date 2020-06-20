@@ -61,6 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
+                android:layout_gravity="center"
                 android:layout_weight="1"
                 android:textColor="@color/colorText"
                 android:fontFamily="@font/namum"
@@ -87,8 +88,8 @@
             android:text="@string/Multiline"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:layout_marginLeft="20dp"
             android:textColor="@color/colorText"
+            android:textSize="13dp"
             android:fontFamily="@font/namum"/>
     </LinearLayout>
 </LinearLayout>
